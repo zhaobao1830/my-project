@@ -1,0 +1,21 @@
+<template>
+  <div>
+    图书页面
+  </div>
+</template>
+
+<script>
+  import {get} from '../../util'
+
+  export default {
+    async created () {
+      const res = await get('/weapp/demo')
+      console.log(res)
+      console.log('小程序启动了')
+    }
+  }
+</script>
+
+<style>
+
+</style>
