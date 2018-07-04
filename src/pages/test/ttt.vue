@@ -1,9 +1,10 @@
 <template>
-  <div>ddddddddddddd</div>
+
 </template>
 
 <script type="text/ecmascript-6">
-  export default {}
+  export default {
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" type="text/stylus">
