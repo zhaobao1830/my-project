@@ -30,7 +30,9 @@
           isbn,
           openid: this.userinfo.openId
         })
-        showModal('添加成功', `${res.title}添加成功`)
+        if (res.code === 0 && res.data.title) {
+          showModal('添加成功', `${res.title}添加成功`)
+        }
       },
       scanBook () {
         wx.scanCode({
